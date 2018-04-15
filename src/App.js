@@ -19,14 +19,16 @@ class App extends Component {
               <Countdown date={date} />
               <div className="text">ICO Start Countdown</div>
             </div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOjRPtVtPBai1jpThQZSU_CoVDq_TxsN6iQqAai0H19NnmSA/viewform" target="_blank">
             <div className="btn">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOjRPtVtPBai1jpThQZSU_CoVDq_TxsN6iQqAai0H19NnmSA/viewform"><i class="fas fa-envelope"></i> &nbsp; Get Notified</a>
+              <i class="fas fa-envelope"></i> &nbsp; Get Notified
             </div>
+            </a>
             <div className="community">
-              <a href="https://discord.gg/UTg8Tc6 "><i class="fab fa-discord"></i></a>
-              <a href="https://twitter.com/MoneraCurrency "><i class="fab fa-twitter"></i></a>
-              <a href="https://medium.com/@moneracurrency/monera-cryptonight-currency-announcement-41fe83c5732b"><i class="fab fa-medium"></i></a>
-              <a href=""><i class="fas fa-bullhorn"></i></a>
+              <a href="https://discord.gg/UTg8Tc6" target="_blank"><i class="fab fa-discord"></i></a>
+              <a href="https://twitter.com/MoneraCurrency" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://medium.com/@moneracurrency/monera-cryptonight-currency-announcement-41fe83c5732b" target="_blank"><i class="fab fa-medium"></i></a>
+              <a href="" target="_blank"><i class="fas fa-bullhorn"></i></a>
             </div>
           </div>
         </div>
@@ -34,12 +36,14 @@ class App extends Component {
           <div className="inner">
             <div className="heading">What is Monera?</div>
             <div className="info">
-              Monera is a privacy-focused cryptocurrency based on Monero with support for ASICs.
-              Monero + ASICS = Monera
+              <p>Monera is a privacy-focused cryptocurrency based on Monero with support for ASICs.</p>
 
-              Monero recently hardforked to CryptonightV7 as a reaction to the announcement of AISC Cryptonight mining hardware. The Monero
+              <br />
+              <b>Monero + ASICS = Monera</b>
+              <br />
+              <p>Monero recently hardforked to CryptonightV7 as a reaction to the announcement of ASIC Cryptonight mining hardware. The Monero
               Team has made it clear that they will continually fork to new algorithms as they new ASICs get developed. Many members of the Monero
-              family aren’t convinced that this is at all productive as specialised hardware development is inevitable and having ASIC Support is actually desirable.
+              family aren’t convinced that this is at all productive as specialised hardware development is inevitable and having ASIC Support is actually desirable.</p>
             </div>
           </div>
         </div>
@@ -47,16 +51,13 @@ class App extends Component {
           <div className="inner">
             <div className="heading">Why Support ASICS</div>
             <div className="info">
-
-                  It’s unproductive to resist them - Stops innovation and takes up lots of development time.
-
-                  Potentially Equal or Less Centralization - ASIC manufacturers won't sell to consumers.
-
-                  Increased Network Hashing power - More secure/less prone to attacks.
-
-                  Better for the environment  - ASICS are much more energy efficient.
-
-                  Reduce strain on the GPU market - Why promote using unoptimised hardware?
+              <ul>
+                  <li>It’s unproductive to resist them - Stops innovation and takes up lots of development time.</li>
+                  <li>Potentially Equal or Less Centralization - ASIC manufacturers won't sell to consumers.</li>
+                  <li>Increased Network Hashing power - More secure/less prone to attacks.</li>
+                  <li>Better for the environment  - ASICS are much more energy efficient.</li>
+                  <li>Reduce strain on the GPU market - Why promote using unoptimised hardware?</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -93,14 +94,14 @@ class App extends Component {
           <div className="inner">
             <div className="heading">Monera VS Monero</div>
             <div className="info">
-              Because Monera doesn’t inherit the Monero blockchain, the security flaws associated with the early Monero
+            <p>Because Monera doesn’t inherit the Monero blockchain, the security flaws associated with the early Monero
               blocks and other previous forks are completely eliminated and will be starting fresh.
 
               Minimum Ring Size bumped up to 14 from 7 for added security.
               Fees are adjusted to compensate.
 
               Monera will inherit the latest Zawy difficulty algorithm to eliminate difficulty attacks and react much faster than Moneros
-              and provide security around the latest time warping attacks on Cryptonight coins.
+              and provide security around the latest time warping attacks on Cryptonight coins.</p>
             </div>
           </div>
         </div>
