@@ -17,14 +17,15 @@ class App extends Component {
             <div className="subtitle">Private CryptoNight cryptocurrency with ASIC support</div>
             <div className="countdown">
               <Countdown date={date} />
+              <div className="text">ICO Start Countdown</div>
             </div>
             <div className="btn">
-              <a><i class="fas fa-envelope"></i> &nbsp; Get Notified</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOjRPtVtPBai1jpThQZSU_CoVDq_TxsN6iQqAai0H19NnmSA/viewform"><i class="fas fa-envelope"></i> &nbsp; Get Notified</a>
             </div>
             <div className="community">
               <a href="https://discord.gg/UTg8Tc6 "><i class="fab fa-discord"></i></a>
               <a href="https://twitter.com/MoneraCurrency "><i class="fab fa-twitter"></i></a>
-              <a href="https://medium.com/@moneracurrency"><i class="fab fa-medium"></i></a>
+              <a href="https://medium.com/@moneracurrency/monera-cryptonight-currency-announcement-41fe83c5732b"><i class="fab fa-medium"></i></a>
               <a href=""><i class="fas fa-bullhorn"></i></a>
             </div>
           </div>
