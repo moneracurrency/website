@@ -7,7 +7,7 @@ import Countdown from 'react-countdown-now';
 class App extends Component {
   render() {
 
-    let date = new Date(1524304800000)
+    let date = new Date(1524952800000)
 
     return (
       <div className="app">
